@@ -9,12 +9,9 @@
 
 function setup() {
   createCanvas3D(windowWidth, windowHeight);
+  getOrbit().autoRotate=true;
   //Change background color of the scene
   background3D("rgb(8,194,255)");
-  let cupola=beginGroup();
-       diffuse("rgb(8,194,255)");
-       sphere(0,4,0,100);
-  endGroup();
  let albero = beginGroup();
   diffuse("green");
   sphere(0, 3, 0, 2);
