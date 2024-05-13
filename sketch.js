@@ -29,6 +29,7 @@ function setup() {
   let nuovo_albero=clone(albero,x,0,y);
     let scala=random(0.7,1.3);
     nuovo_albero.setScale(scala);
+    setCamera(250,100,7);
   }
  
 }
